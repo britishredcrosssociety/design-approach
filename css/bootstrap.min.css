@@ -7032,37 +7032,25 @@ h2 {
     font-weight: 700;
 }
 
-ul.timeline {
-    list-style-type: none;
+.black-button {
+  border: solid 0px #ffdd00;
+  border-radius: 3px;
+  color: #0b0c0c;
+  background-color: #fff;
 }
 
-ul.timeline:before {
-    content: ' ';
-    background: #333;
-    display: inline-block;
-    position: absolute;
-    left: 33px;
-    width: 2px;
-    height: 80%;
-    z-index: 400;
+.black-button:hover {
+  border: solid 0px #ffdd00;
+  border-radius: 3px;
+  color: #0b0c0c;
+  background-color: #fff;
 }
 
-ul.timeline > li {
-    margin: 35px 0;
-    padding-left: 20px;
-}
-
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #333;
-    left: 20px;
-    width: 27px;
-    height: 27px;
-    z-index: 400;
+.black-button:active {
+  border: solid 0px #ffdd00;
+  border-radius: 3px;
+  color: #0b0c0c;
+  background-color: #fff;
 }
 
 #current:before {
