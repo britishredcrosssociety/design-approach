@@ -6979,15 +6979,9 @@ a:link {
     border-bottom: solid 3px #ee2a24;
 }
 
-#h1-big {
-    font-family: 'Righteous', cursive;
-    color: blue;
-}
-
-#title-name {
-    font-family: 'Righteous', cursive;
-    font-size: 24px;
-    color: blue;
+#list {
+    padding-left: 25px; 
+    font-size: 21px;
 }
 
 .header-links {
