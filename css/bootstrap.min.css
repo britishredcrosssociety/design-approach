@@ -7053,6 +7053,13 @@ h2 {
   background-color: #fff;
 }
 
+#footer {
+    background-color: #262626; 
+    margin-bottom: 0px; 
+    color: white; 
+    padding: 20px 0px 30px 0px;
+}
+
 #current:before {
     border: 3px solid blue;
     background: blue;
