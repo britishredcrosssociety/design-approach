@@ -6976,7 +6976,6 @@ a:link {
     margin: 0px; 
     padding: 0px; 
     margin-bottom: 0px;
-    border-bottom: solid 3px #ee2a24;
 }
 
 #list {
@@ -7031,7 +7030,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
-
 .black-button {
   border: solid 0px #ffdd00;
   border-radius: 3px;
