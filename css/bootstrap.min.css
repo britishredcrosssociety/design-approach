@@ -7073,3 +7073,46 @@ h3 {
     border: 3px solid blue;
     background: blue;
 }
+
+#more-1 {
+    display: none;
+}
+
+#myBtn-1 {
+    color: #0b0c0c;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more ↓';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less ↑';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    color: #0b0c0c;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
